@@ -106,7 +106,7 @@ export default function App() {
         <div className="brand-mark"><CloudRain size={23} /></div>
         <div><strong>OBSERVATORIO</strong><span>MANIZALES · DEMO</span></div>
       </div>
-      <div className="side-caption">PLATAFORMA DE MONITOREO</div>
+      <div className="side-caption">PLATAFORMA DE MONITOREO 2.0</div>
       <nav>{navItems.map(item => {
         const Icon = item.icon
         return <button key={item.id} className={`nav-item ${active === item.id ? 'selected' : ''}`}
@@ -118,6 +118,7 @@ export default function App() {
       <div className="sidebar-bottom">
         <div className="status-pill"><span className="pulse" /> Aplicación académica</div>
         <p>Datos de demostración. No es un sistema oficial de alertas.</p>
+        <p>Pipeline CI/CD Probado por: Carlos Soto</p>
       </div>
     </aside>
 
